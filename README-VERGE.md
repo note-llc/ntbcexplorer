@@ -1,6 +1,6 @@
-# NTBCExplorer
+# VergeExplorer
 
-A responsive design NoteBlockChain (NTBC) Cryptocurrency Blockchain Explorer built on top of KoaJS JSON API (NodeJS) backend and VueJS (vue-cli) frontend. This is a fork of the Verge Explorer.
+A responsive design Verge (XVG) Cryptocurrency Blockchain Explorer built on top of KoaJS JSON API (NodeJS) backend and VueJS (vue-cli) frontend
 
 ## Getting Started
 
@@ -41,20 +41,20 @@ cd ..
 cd client && npm install
 ```
 
-Download & extract from `notebc-cli-bionic-linux64` and `notebcd-bionic-linux64` [https://github.com/note-llc/NoteBlockchain/releases]
+Download & extract from `verge-6.0.2-x86_64-linux-gnu.tar.gz` [https://github.com/vergecurrency/VERGE/releases]
 
-Create a `.notecoin` folder inside your home directory 
+Create a `.VERGE` folder inside your home directory
 
-Copy `notecoin.conf` file to this directory
+Copy `VERGE.conf` file to this directory
 
 Fill out `rpcuser=` and `rpcpassword=` fields in this file. You decide what this two will be. You will use this values later in `.env` file
 
-Start the Noteblockchain Daemon (RPC)
+Start the Verge Daemon (RPC)
 ```
-./notebcd-bionic-linux64
+./verge-6.0.2/bin/verged -daemon
 ```
 
-This will take time to sync the blockchain.
+This will take time to sync the blockchain. Alternatively and advisiably you can download the blockchain to speed up the blockchain syncing process
 
 Inside `server` folder create an empty `.env` file with the contents from `example.env` and fill it out with proper values.
 
