@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 * NodeJS v10.16.3
 * NPM v6.9.0
 * MongoDB v4.0.12 with Replica Set enabled and configured (required for ACID transactions)
-* Verge Daemon v6.0.2 (Fully Synced) -> verge-6.0.2-x86_64-linux-gnu.tar.gz [https://github.com/vergecurrency/VERGE/releases]
+* NoteBlockchain Daemon (Fully Synced) -> notebcd-bionic-linux64 [https://github.com/note-llc/NoteBlockchain/releases/tag/v1.0.0.1]
 ```
 
 What is not covered here
@@ -30,13 +30,13 @@ A step by step series of examples that tell you how to get a development environ
 Clone the repository
 
 ```
-git clone https://github.com/peengo/vergeexplorer.git
+git clone https://github.com/note-llc/NoteBlockchain.git
 ```
 
 Install npm packages and dependencies
 
 ```
-cd vergeexplorer/server && npm install
+cd ntbcexplorer/server && npm install
 cd ..
 cd client && npm install
 ```

@@ -400,6 +400,6 @@ code {
   color: #dcf0fd;
 }
 .json-string {
-  color: #37bde2;
+  color: #f0ba0a;
 }
 </style>
