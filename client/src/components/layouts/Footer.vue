@@ -21,7 +21,7 @@
           <a
             alt="GitHub"
             href="https://github.com/peengo/vergeexplorer"
-          >GitHub</a>. Donations are not necesarry but are greatly appreciated. Donations keep this website online. All donations are non-refundable. To show the support you can also use the Binance exchange referral link below.
+          >GitHub</a>. Donations are not necessary but are greatly appreciated. Donations keep this website online. All donations are non-refundable. To show the support you can also use the Binance exchange referral link below.
         </v-card-text>
         <v-card-text class="subheading text-xs-center">VERGE ({{ $CURRENCY }})</v-card-text>
         <v-card-text
@@ -30,6 +30,13 @@
         <v-card-title class="justify-center">
           <v-img alt="QR Code" :src="qrlink" max-height="256" max-width="256" class="ma-5"></v-img>
         </v-card-title>
+        <v-card-text class="subheading">
+
+        </v-card-text>
+        <v-card-text class="subheading text-xs-center">NoteBlockchain ({{ $CURRENCY }})</v-card-text>
+        <v-card-text
+                class="text-xs-center monospace success break-all"
+        >NaXV8HmCRkTLE3163fdG6GBVB6PURVD9E1</v-card-text>
         <v-card-text class="text-xs-center">
           <v-btn
             small
@@ -47,18 +54,18 @@
     </v-dialog>
 
     <v-layout justify-center row wrap>
-      <v-btn href="https://vergecurrency.com/" flat round><v-icon left>fas fa-globe</v-icon>VERGE Website</v-btn>
+      <v-btn href="https://notebc.com" flat round><v-icon left>fas fa-globe</v-icon>NTBC Website</v-btn>
       <v-btn flat round @click.stop="contactDialog = true">
         <v-icon left small>fas fa-home</v-icon>Contact Us
       </v-btn>
       <v-btn flat round @click.stop="donationsDialog = true">
         <v-icon left small>fas fa-hand-holding-usd</v-icon>Donations
       </v-btn>
-      <v-btn href="https://github.com/peengo/vergeexplorer" flat round>
+      <v-btn href="https://github.com/note-llc/ntbcexplorer" flat round>
         <v-icon left>fab fa-github</v-icon>GitHub
       </v-btn>
       <v-flex py-3 text-xs-center xs12 class="accent--text">
-        VergeExplorer
+        NTBCExplorer
         <v-icon small>fa fa-copyright</v-icon>&nbsp;2020
       </v-flex>
     </v-layout>

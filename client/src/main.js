@@ -17,14 +17,14 @@ import axios from "axios";
 
 Vue.prototype.$http = axios;
 Vue.prototype.$filters = Vue.options.filters;
-Vue.prototype.$CURRENCY = 'XVG';
+Vue.prototype.$CURRENCY = 'NTBC';
 
 Vue.use(Vuetify, {
   components: { VLayout },
   iconfont: 'fa',
   theme: {
     primary: {
-      base: "#37BDE2",
+      base: "#f0ba0a",
       darken1: "#112134"
     },
     secondary: {
