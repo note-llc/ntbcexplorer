@@ -50,7 +50,7 @@ Copy `notecoin.conf` file to this directory
 Fill out `rpcuser=` and `rpcpassword=` fields in this file. You decide what this two will be. You will use this values later in `.env` file
 
 Start the Noteblockchain Daemon (RPC)
-```
+```mo
 ./notebcd-bionic-linux64
 ```
 

@@ -22,14 +22,12 @@
             alt="GitHub"
             href="https://github.com/peengo/vergeexplorer"
           >GitHub</a>. Donations are not necessary but are greatly appreciated. Donations keep this website online. All donations are non-refundable. To show the support you can also use the Binance exchange referral link below.
+          <br/><br/>Above text is retained from the original Verge team's code. Only the NTBC address is added below to support server costs.
         </v-card-text>
-        <v-card-text class="subheading text-xs-center">VERGE ({{ $CURRENCY }})</v-card-text>
+        <v-card-text class="subheading text-xs-center">VERGE (XVG)</v-card-text>
         <v-card-text
           class="text-xs-center monospace success break-all"
         >DEHYYiNA4fb7h59DGPyrDNNoRRF5ZtMmy9</v-card-text>
-        <v-card-title class="justify-center">
-          <v-img alt="QR Code" :src="qrlink" max-height="256" max-width="256" class="ma-5"></v-img>
-        </v-card-title>
         <v-card-text class="subheading">
 
         </v-card-text>
