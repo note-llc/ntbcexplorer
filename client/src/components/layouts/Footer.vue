@@ -4,7 +4,10 @@
       <v-card>
         <v-card-title class="headline justify-center info">Contact</v-card-title>
         <v-card-text class="text-xs-center py-5">
-          <v-img :src="`${publicPath}contact.png`" alt="contact" />
+          <a
+            alt="NoteBC Helpdesk"
+            href="https://help.notebc.space/login"
+          >https://help.notebc.space/login</a>
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>

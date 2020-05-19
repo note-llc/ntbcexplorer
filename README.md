@@ -98,7 +98,7 @@ db.ios.createIndex({ time: -1, type: -1 }, { background: true })
 
 **Start syncing blockchain to the database**
 
-Do this when the Verge Daemon is running (fully synced) and accepting commands
+Do this when the NoteBlockchain Daemon is running (fully synced) and accepting commands
 
 inside `server` folder
 ```
